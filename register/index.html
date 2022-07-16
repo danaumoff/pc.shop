@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="js/reg.js"></script>
+    <title>Регистрация</title>
+</head>
+
+<body>
+    <form method="POST" action='reg.php'>
+        <div>
+            <label for='name'>Имя: </label>
+            <input type='text' name='name' id='name'>
+        </div>
+        <div>
+            <label for='surname'>Фамилия: </label>
+            <input type='text' name='surname' id='surname'>
+        </div>
+        <div>
+            <label for='login'>Логин: </label>
+            <input type='text' name='login' id='login'>
+        </div>
+        <div>
+            <label for='email'>Почта: </label>
+            <input type='email' name='email' id='email'>
+        </div>
+        <div>
+            <label for='password'>Пароль: </label>
+            <input type='password' name='password' id='password'>
+        </div>
+        <div>
+            <label for='rp_password'>Повторите пароль: </label>
+            <input type='password' name='rp_password' id='rp_password'>
+        </div>
+        <div>
+            <input type='submit' value='Отправить' id='btn_sub' disabled>
+        </div>
+    </form>
+</body>
+
+</html>
